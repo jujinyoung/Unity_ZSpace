@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/1.Scenes/LearnPage.unity
     guid: 77db36520919eca4ab149fc2b2b673eb
   - enabled: 1
+    path: Assets/1.Scenes/TestScene.unity
+    guid: 44984862a4738e642a594ede049c3153
+  - enabled: 1
     path: Assets/1.Scenes/QuizPage.unity
     guid: 09d63d8911251774ab1d3636edb4da9c
   m_configObjects: {}

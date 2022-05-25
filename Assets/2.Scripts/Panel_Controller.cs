@@ -38,7 +38,7 @@ public class Panel_Controller : MonoBehaviour
     public void SetData(string title, string content, string species, string genus, 
     string family, string order, string _class, string division, string kingdom)
     {
-        this.title.text = title + "는(은) " + species + "에 속한다.";
+        this.title.text = title + " 은(는) " + species + "에 속한다.";
         this.content.text = content;
         this.species.text = species;
         this.genus.text = genus;

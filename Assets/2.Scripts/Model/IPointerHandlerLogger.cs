@@ -7,11 +7,11 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace zSpace.Core.Samples
-{
 
     public class IPointerHandlerLogger : MonoBehaviour, IPointerClickHandler
     {
+
+        public Vector3 model_pos;
         Main_Scene_Controller msc;
         Panel_Controller pc;
         Model model;
@@ -34,8 +34,10 @@ namespace zSpace.Core.Samples
             division = model.division;
             kingdom = model.kingdom;
             pc.SetData(model_name,model_info,species,genus,family,order,_class,division,kingdom);
+            gameObject.AddComponent<zSpace.Core.Samples.Draggable>();
 
             msc.Click_Model(model_num);
+            
+            gameObject.GetComponent<IPointerHandlerLogger>().enabled = false;
         }
     }
-}

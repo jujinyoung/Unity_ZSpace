@@ -12,6 +12,7 @@ using UnityEngine.EventSystems;
     {
 
         public Vector3 model_pos;
+        public Vector3 model_rot;
         Main_Scene_Controller msc;
         Panel_Controller pc;
         Model model;
@@ -35,7 +36,7 @@ using UnityEngine.EventSystems;
             kingdom = model.kingdom;
             pc.SetData(model_name,model_info,species,genus,family,order,_class,division,kingdom);
             gameObject.AddComponent<zSpace.Core.Samples.Draggable>();
-
+            
             msc.Click_Model(model_num);
             
             gameObject.GetComponent<IPointerHandlerLogger>().enabled = false;

@@ -339,7 +339,7 @@ Animator:
   m_GameObject: {fileID: 9025689391548933655}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 7ae7e949241b4e74ea6a2612760de57e, type: 3}
-  m_Controller: {fileID: 9100000, guid: cde4c2e452083e041923ea9d397cff9a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -359,7 +359,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 14
@@ -389,17 +389,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0189da00277a41469654ccc973cb05a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  model_name: "\uACF0"
+  model_name: "\uBD88\uACF0"
   species: "\uB3D9\uBB3C\uACC4"
   genus: "\uCC99\uC0AD\uB3D9\uBB3C\uAD70"
   family: "\uD3EC\uC720\uAC15"
-  order: "\uC2DD\uC721"
-  _class: "\uACF0"
-  division: ' '
-  kingdom: ' '
+  order: "\uC2DD\uC721\uBAA9"
+  _class: "\uACF0\uACFC"
+  division: "\uD070\uACF0\uC18D"
+  kingdom: "\uBD88"
   model_num: 0
-  model_infor: "\uACF0\uC740 \uC9C4\uD575\uC138\uD3EC\uB85C \uC774\uB8E8\uC5B4\uC9C4
-    \uB2E4\uC138\uD3EC \uC0DD\uBB3C\uC774\uB2E4."
+  model_infor: "\uC9C4\uD589\uC0DD\uBB3C \uC911 \uC5FD\uB85D\uC18C\uB97C \uAC16\uC9C0
+    \uC54A\uACE0 \uC138\uD3EC\uBCBD\uC744 \uAC16\uC9C0 \uC54A\uC73C\uBA70 \uBAB8\uC18D\uC5D0
+    \uC5EC\uB7EC \uAE30\uAD00\uC774 \uC788\uB294 \uC0DD\uBB3C \uC911 \uB2E4\uC138\uD3EC\uC778
+    \uAC83\uC744 \uB9D0\uD55C\uB2E4. \uC77C\uBC18\uC801\uC73C\uB85C \uC6B4\uB3D9\uC131\uAC00\uC9C0\uACE0
+    \uC788\uC73C\uBA70, \uC885\uC18D\uC601\uC591\uC744 \uD558\uACE0, \uC138\uD3EC\uD638\uD761\uC744
+    \uD558\uBA70, \uC720\uC131\uC0DD\uC2DD\uC774 \uAC00\uB2A5\uD558\uBA70, \uBC30\uC790
+    \uBC1C\uC0DD \uC2DC \uD3EC\uBC30\uAC00 \uC0DD\uC131\uB418\uB294 \uC0DD\uBB3C\uB4E4\uC744
+    \uC77C\uCEEB\uB294 \uB9D0\uC774\uB2E4."
 --- !u!114 &9025689389870546687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -412,6 +418,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbbd2a80889d5cb48b119d250fe224c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  model_pos: {x: 45, y: 0.6, z: 0}
+  model_rot: {x: 0, y: 206.5, z: 0}
 --- !u!1 &9025689391548933657
 GameObject:
   m_ObjectHideFlags: 0

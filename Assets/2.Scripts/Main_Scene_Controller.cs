@@ -34,8 +34,7 @@ public class Main_Scene_Controller : MonoBehaviour
                 camera_State = Camera_State.camera_main;
                 zFrame.transform.position = subcam_main.position;
                 right_arrow.SetActive(true);
-                break;
-                
+                break;                
         }
     }
 
@@ -60,6 +59,7 @@ public class Main_Scene_Controller : MonoBehaviour
     public void Click_ExitBtn(){
         zFrame.ViewerScale = 15.0f; 
         zFrame.transform.position = Camera_pos();
+        zFrame.transform.localEulerAngles = Camera_rot();
         left_arrow.SetActive(true);
         right_arrow.SetActive(true);
         stage.SetActive(true);
@@ -72,8 +72,7 @@ public class Main_Scene_Controller : MonoBehaviour
         models[model_Index].GetComponent<IPointerHandlerLogger>().enabled = true;
         Destroy(models[model_Index].GetComponent<zSpace.Core.Samples.Draggable>());
         models[model_Index].transform.position = models[model_Index].GetComponent<IPointerHandlerLogger>().model_pos;
-
-        
+        models[model_Index].transform.localEulerAngles = models[model_Index].GetComponent<IPointerHandlerLogger>().model_rot;
     }
 
     private Vector3 Camera_pos(){
@@ -94,6 +93,24 @@ public class Main_Scene_Controller : MonoBehaviour
         return pos;
     }
 
+    private Vector3 Camera_rot(){
+        Vector3 rot = new Vector3();
+        switch(camera_State){
+            case Camera_State.camera_left:
+                rot = subcam_left.localEulerAngles;
+                break;
+            case Camera_State.camera_main: 
+                rot = subcam_main.localEulerAngles;
+                break;
+            case Camera_State.camera_right:
+                rot = subcam_right.localEulerAngles;
+                break;
+                
+        }
+
+        return rot;
+    }
+
     public void Click_Model(int num)
     {
         model_Index = num;
@@ -103,14 +120,18 @@ public class Main_Scene_Controller : MonoBehaviour
     
     void Click_OBJ()
     {
-        zFrame.ViewerScale = 10.0f;
-        Vector3 pos = new Vector3(models[model_Index].transform.position.x + 1.0f,models[model_Index].transform.position.y + 1.0f + models[model_Index].transform.position.z);
+        zFrame.ViewerScale = 8.0f;
+        Vector3 pos = new Vector3(-1.0f,1.0f,1.0f);
+        Vector3 rot = new Vector3(10.0f,180.0f,0);
         zFrame.transform.position = pos;
+        zFrame.transform.localEulerAngles = rot; 
+        models[model_Index].transform.position = new Vector3(0,0,0);
+        models[model_Index].transform.localEulerAngles = new Vector3(0,0,0);
         model_Panel.SetActive(true);
+        exit_btn.SetActive(true);
         left_arrow.SetActive(false);
         right_arrow.SetActive(false);
         stage.SetActive(false);
-        exit_btn.SetActive(true);
         foreach(GameObject model in models)
         {
             model.SetActive(false);

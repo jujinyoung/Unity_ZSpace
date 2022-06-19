@@ -252,7 +252,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 2080685922}
-          m_MethodName: LoadQuizPage
+          m_MethodName: QuitPage
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -281,7 +281,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b14f1bb0bdd629941b38f5ff78d706cd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 86f4191e724c61a4bae6a9a6dd675a91, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

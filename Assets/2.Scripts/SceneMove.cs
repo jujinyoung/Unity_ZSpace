@@ -18,4 +18,8 @@ public class SceneMove : MonoBehaviour
         SceneManager.LoadScene("QuizPage");
         Debug.Log("퀴즈하기");
     }
+
+    public void QuitPage(){
+        Application.Quit();
+    }
 }

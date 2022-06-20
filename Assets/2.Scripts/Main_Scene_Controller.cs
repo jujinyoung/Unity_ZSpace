@@ -19,15 +19,20 @@ public class Main_Scene_Controller : MonoBehaviour
     public GameObject sizeParent,modelParent;
     //생물 리스트
     public GameObject[] models;
+    public GameObject lens;
     //Zframe
     public zSpace.Core.ZFrame zFrame;
     //동물 번호
     int model_Index;
+    //효과음
+    public AudioSource audioSource;
+
 
     //동물 클릭
     public void Click_Model(int num)
     {
         model_Index = num;
+        audioSource.Play();
         Click_OBJ();
     }
 
@@ -54,6 +59,8 @@ public class Main_Scene_Controller : MonoBehaviour
             model.SetActive(false);
         }
         models[model_Index].SetActive(true);
+        lens.SetActive(false);
+        find_btn.SetActive(false);
     }
 
     #region 카메라 포지션
@@ -97,6 +104,7 @@ public class Main_Scene_Controller : MonoBehaviour
 
     #region 화면 전환
      public void Click_leftArrow(){
+        audioSource.Play();
         switch(camera_State){
             case Camera_State.camera_left:
                 break;
@@ -117,6 +125,7 @@ public class Main_Scene_Controller : MonoBehaviour
     }
 
     public void Click_rightArrow(){
+        audioSource.Play();
         switch(camera_State){
             case Camera_State.camera_left:
                 camera_State = Camera_State.camera_main;
@@ -138,6 +147,7 @@ public class Main_Scene_Controller : MonoBehaviour
     }
 
     public void Click_ExitBtn(){
+        audioSource.Play();
         zFrame.transform.position = Camera_pos();
         zFrame.transform.localEulerAngles = Camera_rot();
         left_arrow.SetActive(true);
@@ -158,13 +168,25 @@ public class Main_Scene_Controller : MonoBehaviour
         Destroy(models[model_Index].GetComponent<zSpace.Core.Samples.Draggable>());
         models[model_Index].transform.position = models[model_Index].GetComponent<IPointerHandlerLogger>().model_pos;
         models[model_Index].transform.localEulerAngles = models[model_Index].GetComponent<IPointerHandlerLogger>().model_rot;
+        if(camera_State == Camera_State.camera_left){
+            find_btn.SetActive(true);
+            models[5].SetActive(false);
+            models[6].SetActive(false);
+        }
     }
 
     public void Click_FindBtn(){
-        Click_Model(5);
-        background.SetActive(false);
-        background2.SetActive(true);
-        find_btn.SetActive(false);
+        audioSource.Play();
+        if(lens.activeSelf == true){
+            lens.SetActive(false);
+            models[5].SetActive(false);
+            models[6].SetActive(false);
+        }else
+        {
+            lens.SetActive(true);
+            models[5].SetActive(true);
+            models[6].SetActive(true);
+        }
     }
     #endregion
 }

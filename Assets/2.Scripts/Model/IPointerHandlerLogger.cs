@@ -40,5 +40,8 @@ using UnityEngine.EventSystems;
             msc.Click_Model(model_num);
             
             gameObject.GetComponent<IPointerHandlerLogger>().enabled = false;
+            if(model_num == 5){
+                gameObject.transform.GetChild(1).gameObject.SetActive(true);
+            }
         }
     }

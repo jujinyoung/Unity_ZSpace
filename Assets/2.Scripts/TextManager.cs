@@ -8,6 +8,7 @@ public class TextManager : MonoBehaviour
     
     public Text[] Black_Text;
 
+
     public void Select()
     {
         this.GetComponent<Text>().color = new Color(1, 0, 0);
@@ -21,4 +22,5 @@ public class TextManager : MonoBehaviour
     {
         this.GetComponent<Text>().color = new Color(1, 0, 0);
     }
+
 }

@@ -12,8 +12,11 @@ public class Panel_Controller : MonoBehaviour
     public Text title,content,species,genus,family,order,_class,division,kingdom;
     
     int panel_num = 0;
+
+    public AudioSource audioSource;
     
     public void Left_btn(){
+        audioSource.Play();
         panel_num = 0;
         right_arrow.SetActive(true);
         left_arrow.SetActive(false);
@@ -21,6 +24,7 @@ public class Panel_Controller : MonoBehaviour
     }
 
     public void Right_btn(){
+        audioSource.Play();
         panel_num = 1;
         left_arrow.SetActive(true);
         right_arrow.SetActive(false);
@@ -39,7 +43,7 @@ public class Panel_Controller : MonoBehaviour
     string family, string order, string _class, string division, string kingdom)
     {
         this.title.text = title + " 은(는) " + species + "에 속한다.";
-        this.content.text = content;
+        this.content.text = content.Replace("\\n","\n");
         this.species.text = species;
         this.genus.text = genus;
         this.family.text = family;

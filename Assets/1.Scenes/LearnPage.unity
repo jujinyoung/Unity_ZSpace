@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0189da00277a41469654ccc973cb05a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  model_name: "\uBD89\uC740\uADF8\uBB3C\uBC84"
+  model_name: "\uBD89\uC740\uADF8\uBB3C\uBC84\uC12F"
   species: "\uADE0\uACC4"
   genus: "\uB2F4\uC790\uADE0\uBB38"
   family: "\uB2F4\uC790\uADE0\uAC15(\uC8FC\uB984\uBC84\uC12F\uAC15)"
@@ -61,20 +61,17 @@ MonoBehaviour:
   division: "\uADF8\uBB3C\uBC84\uC12F\uC18D"
   kingdom: "\uBD89\uC740\uADF8\uBB3C\uBC84\uC12F"
   model_num: 3
-  model_infor: "\uD575\uB9C9\uC73C\uB85C \uAD6C\uBD84\uB41C \uB69C\uB837\uD55C \uD575\uC774
-    \uC788\uB294 \uC9C4\uD575\uC0DD\uBB3C\uB85C \uBD84\uB958\uB41C\uB2E4. \uC774
-    \uACC4\uC5D0 \uC18D\uD558\uB294 \uC0DD\uBB3C\uB4E4\uC744 \uACF0\uD321\uC774 \uB610\uB294
-    \uC9C4\uADE0\uC774\uB77C\uACE0\uB3C4 \uD55C\uB2E4. \uADE0\uACC4 \uC138\uD3EC\uB294
-    \uB300\uBD80\uBD84 \uB2E4\uC138\uD3EC \uC0DD\uBB3C\uC774\uBA70, \uC138\uD3EC\uBCBD\uC774
-    \uC2DD\uBB3C\uACFC \uB2EC\uB9AC \uD0A4\uD2F4\uC73C\uB85C \uAD6C\uC131\uB418\uC5B4
-    \uC788\uACE0, \uC5FD\uB85D\uC18C \uB4F1\uACFC \uAC19\uC740 \uB3D9\uD654\uC0C9\uC18C\uAC00
-    \uC5C6\uB294 \uC810\uC774 \uD2B9\uC9D5\uC774\uB2E4. \uB530\uB77C\uC11C \uACE0\uB4F1\uC2DD\uBB3C\uCC98\uB7FC
-    \uAD11\uD569\uC131\uC744 \uD558\uC5EC \uC2A4\uC2A4\uB85C \uC591\uBD84\uC744 \uB9CC\uB4E4\uC9C0
-    \uBABB\uD558\uBBC0\uB85C \uB2E4\uB978 \uC0DD\uBB3C\uCCB4\uB098 \uC720\uAE30\uBB3C\uC5D0
-    \uBD99\uC5B4\uC11C \uAE30\uC0DD \uB610\uB294 \uBD80\uC0DD\uC744 \uD55C\uB2E4.
-    \uB300\uBD80\uBD84 \uC601\uC591\uCCB4\uAC00 \uADE0\uC0AC\uB85C \uB418\uC5B4 \uC788\uC73C\uBA70,
-    \uC6B4\uB3D9\uC131\uC774 \uC5C6\uACE0, \uC720\uC131 \uB610\uB294 \uBB34\uC131\uC0DD\uC2DD\uC73C\uB85C
-    \uD3EC\uC790\uB97C \uB9CC\uB4E4\uC5B4 \uBC88\uC2DD\uD55C\uB2E4."
+  model_infor: "\xB7 \uB300\uBD80\uBD84 \uC9C4\uD575\uC0DD\uBB3C\uB85C \uC774\uB8E8\uC5B4\uC9C4
+    \uB2E4\uC138\uD3EC \uC0DD\uBB3C\uC774\uB2E4. \\n\xB7 \uADE0\uACC4\uC5D0 \uC18D\uD558\uB294
+    \uC0DD\uBB3C\uB4E4\uC744 \uACF0\uD321\uC774 \uB610\uB294 \uC9C4\uADE0\uC774\uB77C\uACE0\uB3C4
+    \uD55C\uB2E4. \\n\xB7 \uC2DD\uBB3C\uACC4\uC640 \uB2EC\uB9AC \uC138\uD3EC\uBCBD\uC774
+    \uD0A4\uD2F4\uC73C\uB85C \uAD6C\uC131\uB418\uC5B4 \uC788\uB2E4. \\n\xB7 \uC5FD\uB85D\uC18C
+    \uB4F1\uACFC \uAC19\uC740 \uB3D9\uD654\uC0C9\uC18C\uAC00 \uC5C6\uB2E4. \\n\xB7
+    \uB2E4\uB978 \uC0DD\uBB3C\uCCB4\uB098 \uC720\uAE30\uBB3C\uC5D0 \uBD99\uC5B4\uC11C
+    \uAE30\uC0DD \uB610\uB294 \uBD80\uC0DD\uC744 \uD55C\uB2E4. \\n\xB7 \uC6B4\uB3D9\uC131\uC774
+    \uC5C6\uB2E4.  \\n\xB7 \uC720\uC131 \uB610\uB294 \uBB34\uC131\uC0DD\uC2DD\uC73C\uB85C
+    \uD3EC\uC790\uB97C \uB9CC\uB4E4\uC5B4 \uBC88\uC2DD\uD55C\uB2E4. \\n\xB7 ex) \uD6A8\uBAA8,
+    \uACF0\uD321\uC774, \uBC84\uC12F"
 --- !u!157 &4
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -368,7 +365,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -624,7 +621,7 @@ RectTransform:
   m_Children:
   - {fileID: 22505911}
   m_Father: {fileID: 1898500688583747122}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -747,7 +744,9 @@ MonoBehaviour:
   - {fileID: 1699101112177323}
   - {fileID: 2476983135407831420}
   - {fileID: 4925199803154277062}
+  lens: {fileID: 982875234}
   zFrame: {fileID: 2960153341405406149}
+  audioSource: {fileID: 6698311380407090090}
 --- !u!4 &372956115
 Transform:
   m_ObjectHideFlags: 0
@@ -820,14 +819,13 @@ MonoBehaviour:
   division: "\uAC1C\uC18D"
   kingdom: "\uB291\uB300"
   model_num: 1
-  model_infor: "\uC9C4\uD575\uC0DD\uBB3C \uC911 \uC5FD\uB85D\uC18C\uB97C \uAC16\uC9C0
-    \uC54A\uACE0 \uC138\uD3EC\uBCBD\uC744 \uAC16\uC9C0 \uC54A\uC73C\uBA70 \uBAB8\uC18D\uC5D0
-    \uC5EC\uB7EC \uAE30\uAD00\uC774 \uC788\uB294 \uC0DD\uBB3C \uC911 \uB2E4\uC138\uD3EC\uC778
-    \uAC83\uC744 \uB9D0\uD55C\uB2E4. \uC77C\uBC18\uC801\uC73C\uB85C \uC6B4\uB3D9\uC131\uAC00\uC9C0\uACE0
-    \uC788\uC73C\uBA70, \uC885\uC18D\uC601\uC591\uC744 \uD558\uACE0, \uC138\uD3EC\uD638\uD761\uC744
-    \uD558\uBA70, \uC720\uC131\uC0DD\uC2DD\uC774 \uAC00\uB2A5\uD558\uBA70, \uBC30\uC790
-    \uBC1C\uC0DD \uC2DC \uD3EC\uBC30\uAC00 \uC0DD\uC131\uB418\uB294 \uC0DD\uBB3C\uB4E4\uC744
-    \uC77C\uCEEB\uB294 \uB9D0\uC774\uB2E4."
+  model_infor: "\xB7 \uC9C4\uD575\uC0DD\uBB3C\uC774\uBA70 \uB2E4\uC138\uD3EC \uC0DD\uBB3C\uC774\uB2E4.
+    \\n\xB7 \uC5FD\uB85D\uCCB4\uB97C \uAC16\uC9C0 \uC54A\uACE0 \uC138\uD3EC\uBCBD\uC744
+    \uAC16\uC9C0 \uC54A\uB294\uB2E4. \\n\xB7 \uC77C\uBC18\uC801\uC73C\uB85C \uC6B4\uB3D9\uC131\uC744
+    \uAC00\uC9C0\uACE0 \uC788\uB2E4. \\n\xB7 \uC885\uC18D\uC601\uC591\uC744 \uD55C\uB2E4.\\n
+    \xB7 \uBA39\uC774\uB97C \uC12D\uCDE8\uD558\uC5EC \uC591\uBD84\uC744 \uC5BB\uB294\uB2E4.
+    \\n\xB7 \uC720\uC131\uC0DD\uC2DD\uC774 \uAC00\uB2A5\uD558\uB2E4. \\n\xB7 ex)
+    \uB291\uB300, \uACE0\uC591\uC774, \uACF0"
 --- !u!114 &425445732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -863,15 +861,13 @@ MonoBehaviour:
   division: X
   kingdom: "\uB3C4\uB9C8\uBC40"
   model_num: 4
-  model_infor: "\uC9C4\uD589\uC0DD\uBB3C \uC911 \uC5FD\uB85D\uC18C\uB97C \uAC16\uC9C0
-    \uC54A\uACE0 \uC138\uD3EC\uBCBD\uC744 \uAC16\uC9C0 \uC54A\uC73C\uBA70 \uBAB8\uC18D\uC5D0
-    \uC5EC\uB7EC \uAE30\uAD00\uC774 \uC788\uB294 \uC0DD\uBB3C \uC911 \uB2E4\uC138\uD3EC\uC778
-    \uAC83\uC744 \uB9D0\uD55C\uB2E4. \uC77C\uBC18\uC801\uC73C\uB85C \uC6B4\uB3D9\uC131\uC744
-    \uAC00\uC9C0\uACE0 \uC788\uC73C\uBA70, \uC885\uC18D\uC601\uC591\uC744 \uD558\uACE0,
-    \uC138\uD3EC\uD638\uD761\uC744 \uD558\uBA70, \uC720\uC131\uC0DD\uC2DD\uC774 \uAC00\uB2A5\uD558\uBA70,
-    \uBC30\uC790 \uBC1C\uC0DD \uC2DC \uD3EC\uBC30\uAC00 \uC0DD\uC131\uB418\uB294
-    \uC0DD\uBB3C\uB4E4\uC744 \uC77C\uCEEB\uB294 \uB9D0\uC774\uB2E4. ex) \uB291\uB300,
-    \uACE0\uC591\uC774, \uACF0 (\uB291\uB300)"
+  model_infor: "\xB7 \uC9C4\uD575\uC0DD\uBB3C\uC774\uBA70 \uB2E4\uC138\uD3EC \uC0DD\uBB3C\uC774\uB2E4.
+    \\n\xB7 \uC5FD\uB85D\uCCB4\uB97C \uAC16\uC9C0 \uC54A\uACE0 \uC138\uD3EC\uBCBD\uC744
+    \uAC16\uC9C0 \uC54A\uB294\uB2E4. \\n\xB7 \uC77C\uBC18\uC801\uC73C\uB85C \uC6B4\uB3D9\uC131\uC744
+    \uAC00\uC9C0\uACE0 \uC788\uB2E4. \\n\xB7 \uC885\uC18D\uC601\uC591\uC744 \uD55C\uB2E4.\\n
+    \xB7 \uBA39\uC774\uB97C \uC12D\uCDE8\uD558\uC5EC \uC591\uBD84\uC744 \uC5BB\uB294\uB2E4.
+    \\n\xB7 \uC720\uC131\uC0DD\uC2DD\uC774 \uAC00\uB2A5\uD558\uB2E4. \\n\xB7 ex)
+    \uB291\uB300, \uACE0\uC591\uC774, \uACF0"
 --- !u!114 &429835774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -936,14 +932,13 @@ MonoBehaviour:
   division: "\uD070\uACF0\uC18D"
   kingdom: "\uBD88"
   model_num: 0
-  model_infor: "\uC9C4\uD589\uC0DD\uBB3C \uC911 \uC5FD\uB85D\uC18C\uB97C \uAC16\uC9C0
-    \uC54A\uACE0 \uC138\uD3EC\uBCBD\uC744 \uAC16\uC9C0 \uC54A\uC73C\uBA70 \uBAB8\uC18D\uC5D0
-    \uC5EC\uB7EC \uAE30\uAD00\uC774 \uC788\uB294 \uC0DD\uBB3C \uC911 \uB2E4\uC138\uD3EC\uC778
-    \uAC83\uC744 \uB9D0\uD55C\uB2E4. \uC77C\uBC18\uC801\uC73C\uB85C \uC6B4\uB3D9\uC131\uAC00\uC9C0\uACE0
-    \uC788\uC73C\uBA70, \uC885\uC18D\uC601\uC591\uC744 \uD558\uACE0, \uC138\uD3EC\uD638\uD761\uC744
-    \uD558\uBA70, \uC720\uC131\uC0DD\uC2DD\uC774 \uAC00\uB2A5\uD558\uBA70, \uBC30\uC790
-    \uBC1C\uC0DD \uC2DC \uD3EC\uBC30\uAC00 \uC0DD\uC131\uB418\uB294 \uC0DD\uBB3C\uB4E4\uC744
-    \uC77C\uCEEB\uB294 \uB9D0\uC774\uB2E4."
+  model_infor: "\xB7 \uC9C4\uD575\uC0DD\uBB3C\uC774\uBA70 \uB2E4\uC138\uD3EC \uC0DD\uBB3C\uC774\uB2E4.
+    \\n\xB7 \uC5FD\uB85D\uCCB4\uB97C \uAC16\uC9C0 \uC54A\uACE0 \uC138\uD3EC\uBCBD\uC744
+    \uAC16\uC9C0 \uC54A\uB294\uB2E4. \\n\xB7 \uC77C\uBC18\uC801\uC73C\uB85C \uC6B4\uB3D9\uC131\uC744
+    \uAC00\uC9C0\uACE0 \uC788\uB2E4. \\n\xB7 \uC885\uC18D\uC601\uC591\uC744 \uD55C\uB2E4.\\n
+    \xB7 \uBA39\uC774\uB97C \uC12D\uCDE8\uD558\uC5EC \uC591\uBD84\uC744 \uC5BB\uB294\uB2E4.
+    \\n\xB7 \uC720\uC131\uC0DD\uC2DD\uC774 \uAC00\uB2A5\uD558\uB2E4. \\n\xB7 ex)
+    \uB291\uB300, \uACE0\uC591\uC774, \uACF0"
 --- !u!114 &481685186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1397,6 +1392,80 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919153483}
   m_CullTransparentMesh: 0
+--- !u!1 &982875234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 982875235}
+  - component: {fileID: 982875237}
+  - component: {fileID: 982875236}
+  m_Layer: 0
+  m_Name: lens
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &982875235
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982875234}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1898500688583747122}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &982875236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982875234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ad9f328338fe28e45a88fb923fd4c00f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &982875237
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982875234}
+  m_CullTransparentMesh: 0
 --- !u!1 &1025276032
 GameObject:
   m_ObjectHideFlags: 0
@@ -1599,7 +1668,7 @@ Animator:
   m_GameObject: {fileID: 1289241354}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 5a65f3013be671d42b373a04733cc760, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1b7a33e8a22725c4eb81144d8ea7d59e, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1798,6 +1867,7 @@ GameObject:
   - component: {fileID: 425445732}
   - component: {fileID: 3984431637136859868}
   - component: {fileID: 3984431637136859867}
+  - component: {fileID: 1289241355}
   m_Layer: 0
   m_Name: "\uB291\uB300"
   m_TagString: Untagged
@@ -1805,6 +1875,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1289241355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289241354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 265fba03512b41f49bb7c4b4c1df5198, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1289241356
 GameObject:
   m_ObjectHideFlags: 0
@@ -3385,13 +3467,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1493534495}
-  m_LocalRotation: {x: 0.36650118, y: 0, z: 0, w: 0.9304176}
-  m_LocalPosition: {x: 40.6, y: 1.15, z: 3.6}
+  m_LocalRotation: {x: 0.58070296, y: 0, z: 0, w: 0.8141155}
+  m_LocalPosition: {x: 41.2, y: 1.6, z: 4.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025276033}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 43, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 71, y: 0, z: 0}
 --- !u!1 &1644852655
 GameObject:
   m_ObjectHideFlags: 0
@@ -3738,26 +3820,18 @@ MonoBehaviour:
   division: "\uBBFC\uB4E4\uB808\uC18D"
   kingdom: "\uBBFC\uB4E4\uB808"
   model_num: 2
-  model_infor: "\uC9C4\uD575\uC0DD\uBB3C \uC911 \uB2E4\uC138\uD3EC\uB85C \uC774\uB8E8\uC5B4\uC838
-    \uC788\uC73C\uBA70 \uC140\uB8F0\uB85C\uC2A4\uB85C \uC774\uB8E8\uC5B4\uC9C4 \uC138\uD3EC\uBCBD\uC774
-    \uC788\uACE0 \uC0C9\uC18C\uCCB4\uAC00 2\uAC1C\uC758 \uB9C9\uC73C\uB85C \uB36E\uC5EC\uC788\uB294
-    \uC0DD\uBB3C\uC774\uB2E4. \uC5FD\uB85D\uC18C \uAC00\uC9C0\uACE0 \uC788\uC5B4
-    \uAD11\uD569\uC131\uC744 \uD558\uC5EC \uC2A4\uC2A4\uB85C \uC591\uBD84\uC744 \uB9CC\uB4E0\uB2E4.
-    \uD3EC\uC790\uB098 \uC885\uC790\uB85C \uBC88\uC2DD\uD55C\uB2E4. \uC774\uC804\uC5D0\uB294
+  model_infor: "\xB7 \uC9C4\uD575\uC0DD\uBB3C \uC911 \uB2E4\uC138\uD3EC\uB85C \uC774\uB8E8\uC5B4\uC838
+    \uC788\uB2E4. \\n\xB7 \uC140\uB8F0\uB85C\uC2A4\uB85C \uC774\uB8E8\uC5B4\uC9C4
+    \uC138\uD3EC\uBCBD\uC774 \uC788\uACE0 \uC0C9\uC18C\uCCB4\uAC00 2\uAC1C\uC758
+    \uB9C9\uC73C\uB85C \uB36E\uC5EC\uC788\uB294 \uC0DD\uBB3C\uC774\uB2E4. \\n\xB7
+    \uC5FD\uB85D\uCCB4\uB97C \uAC00\uC9C0\uACE0 \uC788\uC5B4 \uAD11\uD569\uC131\uC744
+    \uD558\uC5EC \uC2A4\uC2A4\uB85C \uC591\uBD84\uC744 \uB9CC\uB4E0\uB2E4. \\n\xB7
+    \uD3EC\uC790\uB098 \uC885\uC790\uB85C \uBC88\uC2DD\uD55C\uB2E4. \\n\xB7 \uC774\uC804\uC5D0\uB294
     \uC6C0\uC9C1\uC774\uC9C0\uC54A\uB294 \uC0DD\uBB3C\uC744 \uC2DD\uBB3C\uC774\uB77C
-    \uD558\uC600\uC73C\uB098 \uD604\uC7AC\uC5D0\uB294 \uD30C\uB9AC\uC9C0\uC625, \uC2E0\uACBD\uCD08,
-    \uBB34\uCD08\uCC98\uB7FC \uC6B4\uB3D9\uC131\uC744 \uAC16\uB294 \uC2DD\uBB3C\uC774
-    \uC788\uB2E4. ex) \uC6B0\uC0B0\uC774\uB07C, \uACE0\uC0AC\uB9AC, \uC18C\uB098\uBB34,
-    \uD574\uBC14\uB77C\uAE30, \uBBFC\uB4E4\uB808 \uBBFC\uB4E4\uB808\uB294 \uC904\uAE30\uAC00
-    \uC5C6\uACE0, \uC78E\uC774 \uBFCC\uB9AC\uC5D0\uC11C \uBB49\uCCD0\uB098\uBA70
-    \uC606\uC73C\uB85C \uD37C\uC9C0\uBA74\uC11C \uC790\uB780\uB2E4. \uC78E\uC758
-    \uBAA8\uC591\uC740 \uAE43\uAF34\uB85C \uAE4A\uC774 \uD328\uC5B4 \uB4E4\uC5B4\uAC04
-    \uBAA8\uC591\uC774\uACE0 \uAC00\uC7A5\uC790\uB9AC\uC5D0 \uD1B1\uB2C8\uAC00 \uC788\uACE0
-    \uD138\uC774 \uC57D\uAC04 \uC788\uB2E4. \uC8FC\uB85C \uACE4\uCDA9\uC5D0 \uC758\uD574
-    \uAF43\uAC00\uB8E8\uBC1B\uC774\uB97C \uD558\uB294 \uD0C0\uAC00\uC218\uC815 \uC2DD\uBB3C\uC774\uC9C0\uB2E4.
-    \uC790\uAC00\uC218\uC815\uD558\uAC70\uB098 \uC218\uC815\uACFC \uC0C1\uAD00\uC5C6\uC774
-    \uB2E8\uC704\uC0DD\uC2DD\uC744 \uD558\uC5EC \uBC88\uC2DD\uB825\uC774 \uAC15\uD55C
-    \uC885\uC774 \uC788\uB2E4."
+    \uD558\uC600\uC73C\uB098 \uD604\uC7AC\uC5D0\uB294 \uD30C\uB9AC\uC9C0\uC625\uCC98\uB7FC
+    \uC6B4\uB3D9\uC131\uC744 \uAC16\uB294 \uC2DD\uBB3C\uC774 \uC788\uB2E4. \\n\xB7
+    ex) \uC6B0\uC0B0\uC774\uB07C, \uACE0\uC0AC\uB9AC, \uC18C\uB098\uBB34, \uD574\uBC14\uB77C\uAE30,
+    \uBBFC\uB4E4\uB808"
 --- !u!114 &1896375989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3933,7 +4007,7 @@ Animator:
   m_GameObject: {fileID: 2025993770}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 7ae7e949241b4e74ea6a2612760de57e, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cde4c2e452083e041923ea9d397cff9a, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4293,6 +4367,7 @@ GameObject:
   - component: {fileID: 6627675782200936053}
   - component: {fileID: 481685185}
   - component: {fileID: 481685186}
+  - component: {fileID: 2025993771}
   m_Layer: 0
   m_Name: "\uACF0"
   m_TagString: Untagged
@@ -4300,6 +4375,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2025993771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025993770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 265fba03512b41f49bb7c4b4c1df5198, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2025993772
 GameObject:
   m_ObjectHideFlags: 0
@@ -5714,6 +5801,7 @@ GameObject:
   - component: {fileID: 429835775}
   - component: {fileID: 429835773}
   - component: {fileID: 429835774}
+  - component: {fileID: 1699101112177324}
   m_Layer: 0
   m_Name: "\uB3C4\uB9C8\uBC40"
   m_TagString: Untagged
@@ -5721,6 +5809,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1699101112177324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699101112177323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 265fba03512b41f49bb7c4b4c1df5198, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1714608302437201
 GameObject:
   m_ObjectHideFlags: 0
@@ -6651,7 +6751,7 @@ Animator:
   m_GameObject: {fileID: 1699101112177323}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 9d455ce8ba2efa64baf70fbdf58e633b, type: 3}
-  m_Controller: {fileID: 9100000, guid: 1d4942b6d0eefa54e81940016a80a99f, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1eb5d4248853fe849a37f918ad148862, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -7390,7 +7490,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6093692507619151846}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1777851632164631565
 MeshRenderer:
@@ -7444,14 +7544,13 @@ Transform:
   m_Children:
   - {fileID: 8912422559350024966}
   - {fileID: 5800296168726546082}
-  - {fileID: 5800296169351578991}
   - {fileID: 5800296167682676734}
   - {fileID: 5800296168328002919}
   - {fileID: 5800296168310318378}
   - {fileID: 5800296167434813209}
+  - {fileID: 5800296167417747963}
   - {fileID: 5800296167959752203}
   - {fileID: 5800296168949574004}
-  - {fileID: 5800296167417747963}
   - {fileID: 5800296168087110115}
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -7486,6 +7585,7 @@ RectTransform:
   - {fileID: 7715797265386779939}
   - {fileID: 505839441}
   - {fileID: 320504287}
+  - {fileID: 982875235}
   - {fileID: 364917877}
   m_Father: {fileID: 5580819651795266432}
   m_RootOrder: 1
@@ -7776,7 +7876,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2476983135407831421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7798,20 +7898,17 @@ MonoBehaviour:
   division: "\uC720\uAE00\uB808\uB098\uC18D"
   kingdom: "\uC720\uAE00\uB808\uB098"
   model_num: 5
-  model_infor: "<\uC6D0\uC0DD\uC0DD\uBB3C\uACC4(protist \uB610\uB294 protista)> \uC6D0\uC0DD\uC0DD\uBB3C\uC740
-    \uC9C4\uD575\uC0DD\uBB3C \uC911\uC5D0 \uB3D9\uBB3C\uC774\uB098 \uC2DD\uBB3C,
-    \uADE0\uACC4\uC5D0 \uC18D\uD558\uC9C0 \uC54A\uB294 \uC0DD\uBB3C\uC774\uB2E4.
-    \uC138\uD3EC\uBCBD\uC774 \uC788\uB294 \uC0DD\uBB3C\uB3C4 \uC788\uACE0, \uC5C6\uB294
-    \uC0DD\uBB3C\uB3C4 \uC788\uB2E4. \uC6B4\uB3D9\uC131\uC774 \uC788\uC5B4 \uB2E4\uB978
-    \uC0DD\uBB3C\uC744 \uC7A1\uC544\uBA39\uB294 \uC0DD\uBB3C\uB3C4 \uC788\uACE0,
-    \uAD11\uD569\uC131\uC744 \uD558\uC5EC \uC2A4\uC2A4\uB85C \uC591\uBD84\uC744 \uB9CC\uB4DC\uB294
-    \uC0DD\uBB3C\uB3C4 \uC788\uACE0 \uC8FD\uC740 \uC0DD\uBB3C\uC744 \uBD84\uD574\uD558\uC5EC
-    \uC591\uBD84\uC744 \uC5BB\uB294 \uC0DD\uBB3C\uB3C4 \uC788\uC2B5\uB2C8\uB2E4.
-    \uB2E8\uC138\uD3EC \uC0DD\uBB3C\uC740 \uB300\uBD80\uBD84 \uBD84\uC5F4\uBC95\uC73C\uB85C
-    \uBC88\uC2DD\uD558\uACE0, \uB2E4\uC138\uD3EC \uC0DD\uBB3C\uC740 \uD3EC\uC790\uB85C
-    \uBC88\uC2DD\uD558\uB294 \uAC83\uC774 \uB9CE\uC2B5\uB2C8\uB2E4. ex) \uB2E8\uC138\uD3EC
-    \uB3D9\uBB3C : \uC544\uBA54\uBC14, \uC720\uAE00\uB808\uB098, \uC9DA\uC2E0\uBC8C\uB808
-    \uB2E4\uC138\uD3EC \uB3D9\uBB3C : \uAE40, \uBBF8\uC5ED, \uB2E4\uC2DC\uB9C8"
+  model_infor: "\xB7 \uC6D0\uC0DD\uC0DD\uBB3C\uC740 \uC9C4\uD575\uC0DD\uBB3C \uC911\uC5D0
+    \uB3D9\uBB3C\uC774\uB098 \uC2DD\uBB3C, \uADE0\uACC4\uC5D0 \uC18D\uD558\uC9C0
+    \uC54A\uB294 \uC0DD\uBB3C\uC774\uB2E4. \\n\xB7 \uC138\uD3EC\uBCBD\uC774 \uC788\uB294
+    \uC0DD\uBB3C\uB3C4 \uC788\uACE0, \uC5C6\uB294 \uC0DD\uBB3C\uB3C4 \uC788\uB2E4.
+    \\n\xB7 \uC6B4\uB3D9\uC131\uC774 \uC788\uC5B4 \uB2E4\uB978 \uC0DD\uBB3C\uC744
+    \uC7A1\uC544\uBA39\uB294 \uC0DD\uBB3C\uB3C4 \uC788\uB2E4. \\n\xB7 \uAD11\uD569\uC131\uC744
+    \uD558\uC5EC \uC2A4\uC2A4\uB85C \uC591\uBD84\uC744 \uB9CC\uB4DC\uB294 \uC0DD\uBB3C\uB3C4
+    \uC788\uB2E4. \\n\xB7 \uC8FD\uC740 \uC0DD\uBB3C\uC744 \uBD84\uD574\uD558\uC5EC
+    \uC591\uBD84\uC744 \uC5BB\uB294 \uC0DD\uBB3C\uB3C4 \uC788\uB2E4. \\n\xB7 \uB2E8\uC138\uD3EC
+    \uC0DD\uBB3C\uC740 \uB300\uBD80\uBD84 \uBD84\uC5F4\uBC95\uC73C\uB85C \uBC88\uC2DD\uD558\uACE0,
+    \uB2E4\uC138\uD3EC \uC0DD\uBB3C\uC740 \uD3EC\uC790\uB85C \uBC88\uC2DD\uD55C\uB2E4. "
 --- !u!114 &2476983135407831422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7824,7 +7921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbbd2a80889d5cb48b119d250fe224c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  model_pos: {x: 0, y: 0, z: 0}
+  model_pos: {x: 39.647, y: 0.235, z: 5.025}
   model_rot: {x: 0, y: 0, z: 0}
 --- !u!65 &2476983135407831423
 BoxCollider:
@@ -8188,7 +8285,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2476983135407831420}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 39.647, y: 0.235, z: 5.025}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 4347264193614580568}
@@ -8843,10 +8940,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2143616338812954743}
-  m_LocalRotation: {x: -1.1431125e-17, y: 0.45830336, z: 5.8944063e-18, w: 0.88879585}
-  m_LocalPosition: {x: 0.012266731, y: 1.67948e-40, z: -0.015961505}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.39370102, y: 0.39370102, z: 0.39370102}
-  m_Children: []
+  m_Children:
+  - {fileID: 7745236236242445868}
   m_Father: {fileID: 2966697485817193414}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8902,13 +9000,15 @@ GameObject:
   - component: {fileID: 6870574729262662419}
   - component: {fileID: 4925199803154277064}
   - component: {fileID: 4925199803154277063}
+  - component: {fileID: 4925199803154277066}
+  - component: {fileID: 4925199803154277065}
   m_Layer: 0
   m_Name: Bacteria
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &4925199803154277063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8930,29 +9030,17 @@ MonoBehaviour:
   division: "\uB300\uC7A5\uADE0\uC18D"
   kingdom: "\uB300\uC7A5\uADE0"
   model_num: 6
-  model_infor: "\uB2E8\uC138\uD3EC \uC0DD\uBA85\uCCB4\uC774\uB2E4. \uD575\uB9C9\uC774
-    \uC5C6\uC5B4 \uB69C\uB837\uD55C \uD575\uC774 \uC5C6\uB294 \uAC83\uC774 \uD2B9\uC9D5\uC774\uBA70
-    \uD55C \uAC1C\uC758 \uB514\uC5D4\uC5D0\uC774(DNA) \uBD84\uC790\uC640 \uC791\uC740
-    \uC138\uD3EC \uC18C\uAE30\uAD00\uC744 \uAC00\uC9C0\uACE0 \uC788\uB2E4. \uB2E8\uC138\uD3EC\uC0DD\uBB3C\uC774\uBA70
-    \uC138\uD3EC\uC5D0\uB294 \uC138\uD3EC\uBCBD\uC774 \uC874\uC7AC\uD55C\uB2E4. \uC9C4\uD575\uC0DD\uBB3C\uCC98\uB7FC
-    \uB514\uC625\uC2DC\uB9AC\uBCF4\uB274\uD074\uB808\uC624\uD0C0\uC774\uB4DC(DNA\uC758
-    \uAD6C\uC131 \uB2E8\uC704) \uAD6C\uC131\uB41C 1\uAC1C\uC758 \uC5FC\uC0C9\uCCB4(DNA)\uB97C
-    \uAC00\uC9C0\uACE0 \uC788\uC9C0\uB9CC \uD575\uC5D0\uC788\uC9C0 \uC54A\uACE0 \uD575\uC591\uCCB4\uB77C\uB294
-    \uC6D0\uD615 DNA\uAC00 \uC874\uC7AC\uD55C\uB2E4. \uB610\uD55C \uC5EC\uAE30\uC5D0\uB294
-    \uC0DD\uC874\uC5D0 \uD544\uC218\uC801\uC774\uC9C0\uB294 \uC54A\uC9C0\uB9CC \uC720\uC6A9\uD55C
-    \uC720\uC804\uC790\uB4E4\uC774 \uC8FC\uB85C \uC704\uCE58\uD55C\uB2E4. \uD575\uC591\uCCB4
-    \uB355\uBD84\uC5D0 \uBCF5\uC81C \uC885\uB8CC \uBB38\uC81C\uC73C\uB85C\uBD80\uD130
+  model_infor: "\xB7 \uB2E8\uC138\uD3EC \uC0DD\uBB3C\uC774\uBA70 \uC138\uD3EC\uBCBD\uC774
+    \uC874\uC7AC\uD55C\uB2E4. \\n\xB7 \uD575\uB9C9\uC774 \uC5C6\uC5B4 \uB69C\uB837\uD55C
+    \uD575\uC774 \uC5C6\uB2E4. \\n\xB7 \uD575\uC591\uCCB4 \uB355\uBD84\uC5D0 \uBCF5\uC81C\uC5D0\uC11C
     \uC790\uC720\uB85C\uC6CC \uC774\uBD84\uBC95, \uBB34\uC131\uC0DD\uC2DD\uC744 \uD1B5\uD558\uC5EC
-    \uBB34\uD55C\uD788 \uC99D\uC2DD(\uBC88\uC2DD)\uD560 \uC218 \uC788\uB2E4. \uD558\uB098\uC758
-    \uC138\uD3EC\uB85C\uB9CC \uC774\uB8E8\uC5B4\uC9C4 \uAC01\uC885 \uC138\uADE0\uC774
-    \uC774 \uBB34\uB9AC\uC5D0 \uC18D\uD569\uB2C8\uB2E4. \uC720\uC804\uC790\uC758
-    \uAD50\uD658\uACFC \uC7AC\uC870\uD569\uC740 \uC5EC\uC804\uD788 \uC77C\uC5B4\uB098\uC9C0\uB9CC
-    \uC774\uAC83\uC740 \uB2E8\uC9C0 \uAC19\uC740 \uAC83\uC744 \uB9CC\uB4E4\uC5B4
-    \uB0B4\uB294 \uACFC\uC815\uC774\uBA70 \uB450 \uC138\uD3EC\uB4E4 \uC0AC\uC774\uC758
-    DNA\uC758 \uC774\uB3D9\uC778 \uC218\uD3C9\uC801 \uC720\uC804\uC790 \uC774\uB3D9\uC758
-    \uD615\uD0DC\uC774\uB2E4.  \uB300\uBD80\uBD84 \uAD11\uD569\uC131\uC744 \uD558\uC9C0
-    \uC54A\uC9C0\uB9CC, \uAD11\uD569\uC131\uC744 \uD558\uC5EC \uC591\uBD84\uC744
-    \uB9CC\uB4DC\uB294 \uC0DD\uBB3C\uB3C4 \uC874\uC7AC\uD55C\uB2E4.(\uB0A8\uC138\uADE0)"
+    \uBB34\uD55C\uD788 \uC99D\uC2DD(\uBC88\uC2DD)\uD560 \uC218 \uC788\uB2E4. \\n\xB7
+    \uD558\uB098\uC758 \uC138\uD3EC\uB85C\uB9CC \uC774\uB8E8\uC5B4\uC9C4 \uAC01\uC885
+    \uC138\uADE0\uC774 \uC774 \uBB34\uB9AC\uC5D0 \uC18D\uD569\uB2C8\uB2E4. \\n\xB7
+    \uB300\uBD80\uBD84 \uAD11\uD569\uC131\uC744 \uD558\uC9C0 \uC54A\uC9C0\uB9CC,
+    \uAD11\uD569\uC131\uC744 \uD558\uC5EC \uC591\uBD84\uC744 \uB9CC\uB4DC\uB294 \uC0DD\uBB3C\uB3C4
+    \uC874\uC7AC\uD55C\uB2E4.(\uB0A8\uC138\uADE0) \\n\xB7 ex) \uB300\uC7A5\uADE0,
+    \uD398\uB834\uADE0, \uC816\uC0B0\uADE0, \uB0A8\uC138\uADE0 "
 --- !u!114 &4925199803154277064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8965,8 +9053,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbbd2a80889d5cb48b119d250fe224c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  model_pos: {x: 0, y: 0, z: 0}
-  model_rot: {x: 0, y: 0, z: 0}
+  model_pos: {x: 40.698, y: 1.03, z: 4.197}
+  model_rot: {x: -89.98, y: 0, z: 0}
+--- !u!65 &4925199803154277065
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4925199803154277062}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.06709332, y: 0.016159186, z: 0.015045114}
+  m_Center: {x: -0.016063854, y: 0.00024804097, z: 0.00006819632}
+--- !u!54 &4925199803154277066
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4925199803154277062}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &5173660093619953822
 GameObject:
   m_ObjectHideFlags: 0
@@ -9248,7 +9365,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4925199803154277062}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0.006629944, y: -0.0210194, z: 0.008786566}
+  m_LocalPosition: {x: 40.698, y: 1.03, z: 4.197}
   m_LocalScale: {x: 30, y: 30, z: 30}
   m_Children: []
   m_Father: {fileID: 407861236}
@@ -9267,7 +9384,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8b4a3b2bcb900be4288867d66dfe915b, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8b4a3b2bcb900be4288867d66dfe915b, type: 3}
       propertyPath: m_LocalScale.x
@@ -9283,15 +9400,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8b4a3b2bcb900be4288867d66dfe915b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 38.593
+      value: 43.72
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8b4a3b2bcb900be4288867d66dfe915b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.488
+      value: 0.49
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8b4a3b2bcb900be4288867d66dfe915b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.4943995
+      value: 6.77
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8b4a3b2bcb900be4288867d66dfe915b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9342,7 +9459,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 53536f9c5cc8b024e920a59d2dbfd629, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 53536f9c5cc8b024e920a59d2dbfd629, type: 3}
       propertyPath: m_LocalScale.x
@@ -9417,7 +9534,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 83c09c42d32b65048bdf6736f7c43537, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 83c09c42d32b65048bdf6736f7c43537, type: 3}
       propertyPath: m_LocalScale.x
@@ -9492,7 +9609,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d54fddc02e16e29478b9e42ee9eeb282, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d54fddc02e16e29478b9e42ee9eeb282, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9555,7 +9672,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 53536f9c5cc8b024e920a59d2dbfd629, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 53536f9c5cc8b024e920a59d2dbfd629, type: 3}
       propertyPath: m_LocalScale.x
@@ -9629,7 +9746,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1874802719494199791}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!218 &5800296168310318379
 Terrain:
@@ -9706,7 +9823,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 83c09c42d32b65048bdf6736f7c43537, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 83c09c42d32b65048bdf6736f7c43537, type: 3}
       propertyPath: m_LocalScale.x
@@ -9875,7 +9992,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d54fddc02e16e29478b9e42ee9eeb282, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d54fddc02e16e29478b9e42ee9eeb282, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9924,81 +10041,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: d54fddc02e16e29478b9e42ee9eeb282,
     type: 3}
   m_PrefabInstance: {fileID: 5800296168949574003}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &5800296169351578990
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1874802719494199791}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 83c09c42d32b65048bdf6736f7c43537, type: 3}
-      propertyPath: m_Name
-      value: hemlock tre1 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 83c09c42d32b65048bdf6736f7c43537, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 83c09c42d32b65048bdf6736f7c43537, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.57181275
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 83c09c42d32b65048bdf6736f7c43537, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.57294595
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 83c09c42d32b65048bdf6736f7c43537, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5059511
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 83c09c42d32b65048bdf6736f7c43537, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 38.18
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 83c09c42d32b65048bdf6736f7c43537, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.186
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 83c09c42d32b65048bdf6736f7c43537, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 6.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 83c09c42d32b65048bdf6736f7c43537, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 83c09c42d32b65048bdf6736f7c43537, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.000000021855694
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 83c09c42d32b65048bdf6736f7c43537, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 83c09c42d32b65048bdf6736f7c43537, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 83c09c42d32b65048bdf6736f7c43537, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 83c09c42d32b65048bdf6736f7c43537, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 83c09c42d32b65048bdf6736f7c43537, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 83c09c42d32b65048bdf6736f7c43537, type: 3}
---- !u!4 &5800296169351578991 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 83c09c42d32b65048bdf6736f7c43537,
-    type: 3}
-  m_PrefabInstance: {fileID: 5800296169351578990}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &5918552699197752718
 GameObject:
@@ -10061,7 +10103,6 @@ Transform:
   - {fileID: 1884502052789454614}
   - {fileID: 5370703097832142206}
   - {fileID: 5675890008451286233}
-  - {fileID: 7745236236242445868}
   - {fileID: 1659940963021679195}
   m_Father: {fileID: 2966697485817193414}
   m_RootOrder: 1
@@ -10103,7 +10144,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!54 &6627675782200936051
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10193,6 +10234,7 @@ GameObject:
   - component: {fileID: 6698311380407090091}
   - component: {fileID: 6698311380407090088}
   - component: {fileID: 6698311380407090089}
+  - component: {fileID: 6698311380407090090}
   m_Layer: 0
   m_Name: ZCamera
   m_TagString: Untagged
@@ -10226,6 +10268,102 @@ MonoBehaviour:
   StereoRenderMode: 0
   _leftCamera: {fileID: 3720830691701702934}
   _rightCamera: {fileID: 3720830690735826102}
+--- !u!82 &6698311380407090090
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6698311380407090087}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2db935277dc1bdc4f9c5b0b6bc60b2d2, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!20 &6698311380407090091
 Camera:
   m_ObjectHideFlags: 0
@@ -11081,6 +11219,7 @@ MonoBehaviour:
   _class: {fileID: 7715797264973069531}
   division: {fileID: 7715797265982260781}
   kingdom: {fileID: 7715797266185863603}
+  audioSource: {fileID: 6698311380407090090}
 --- !u!224 &7715797265386779939
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12043,12 +12182,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2949910690672300766}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.001986782, y: 0.19947165, z: 0.0008226}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0019863117, y: 0.19947164, z: 0.0008226237}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6093692507619151846}
-  m_RootOrder: 16
+  m_Father: {fileID: 4347264193614580568}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7869348891978291214
 GameObject:

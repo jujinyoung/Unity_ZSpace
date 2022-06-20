@@ -5,18 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class SceneMove : MonoBehaviour
 {
+    public AudioSource audioSource;
     public void LoadLearnPage(){
+        audioSource.Play();
         SceneManager.LoadScene("LearnPage");
-        Debug.Log("학습하기");
     }
 
     public void LoadMainPage(){
+        audioSource.Play();
         SceneManager.LoadScene("MainPage");
     }
 
     public void LoadQuizPage(){
+        audioSource.Play();
         SceneManager.LoadScene("QuizPage");
-        Debug.Log("퀴즈하기");
     }
 
     public void QuitPage(){

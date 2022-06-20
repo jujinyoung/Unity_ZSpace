@@ -18,9 +18,11 @@ using UnityEngine.EventSystems;
         Model model;
         int model_num;
         string model_name,species,genus,family,order,_class,division,kingdom,model_info;
+        public GameObject model_ui;
 
         public void OnPointerClick(PointerEventData eventData)
         {
+            model_ui.SetActive(false);
             msc = GameObject.Find("Main_Scene_Controller").GetComponent<Main_Scene_Controller>();
             pc = GameObject.Find("ZCanvas").transform.GetChild(2).GetComponent<Panel_Controller>();
             model = gameObject.GetComponent<Model>();

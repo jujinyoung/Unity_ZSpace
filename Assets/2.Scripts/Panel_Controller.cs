@@ -51,5 +51,9 @@ public class Panel_Controller : MonoBehaviour
         this._class.text = _class;
         this.division.text = division;
         this.kingdom.text = kingdom;
+        panels[0].SetActive(true);
+        panels[1].SetActive(false);
+        left_arrow.SetActive(false);
+        right_arrow.SetActive(true);
     }
 }

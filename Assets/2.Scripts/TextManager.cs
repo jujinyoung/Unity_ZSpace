@@ -23,4 +23,12 @@ public class TextManager : MonoBehaviour
         this.GetComponent<Text>().color = new Color(1, 0, 0);
     }
 
+    public void Initialize(){
+        this.GetComponent<Text>().color = new Color(0.196f, 0.196f, 0.196f);
+        foreach (Text B in Black_Text)
+        {
+            B.color= new Color(0.196f, 0.196f, 0.196f);
+        }
+    }
+
 }

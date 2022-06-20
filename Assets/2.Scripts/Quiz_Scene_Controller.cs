@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Quiz_Scene_Controller : MonoBehaviour
 {
@@ -13,17 +12,27 @@ public class Quiz_Scene_Controller : MonoBehaviour
 
     int quiznum;
 
+    public AudioSource AudioSource, click_audioSource;
+
+    public AudioClip correct_sound,wrong_sound;
+
+
     
 
     public void MoveToMain(){
         back_btn.SetActive(false);
         check_answer_btn.SetActive(false);
-        background.SetActive(true);
+        background2.SetActive(false);
+        click_audioSource.Play();
         foreach(GameObject quizPanel in quizPanels)
         {
             quizPanel.SetActive(false);
         }
         quizPanels[0].SetActive(true);
+        Right_Answer right_answer = quizPanels[quiznum].GetComponent<Right_Answer>();
+        right_answer.check_answer = false;
+        //퀴즈 초기화
+        quizPanels[quiznum].transform.GetChild(1).GetComponent<TextManager>().Initialize();
     }
 
     public void MoveToQuiz1(){
@@ -31,6 +40,7 @@ public class Quiz_Scene_Controller : MonoBehaviour
         back_btn.SetActive(true);
         check_answer_btn.SetActive(true);
         background2.SetActive(true);
+        click_audioSource.Play();
         foreach(GameObject quizPanel in quizPanels)
         {
             quizPanel.SetActive(false);
@@ -43,6 +53,7 @@ public class Quiz_Scene_Controller : MonoBehaviour
         back_btn.SetActive(true);
         check_answer_btn.SetActive(true);
         background2.SetActive(true);
+        click_audioSource.Play();
         foreach(GameObject quizPanel in quizPanels)
         {
             quizPanel.SetActive(false);
@@ -55,6 +66,7 @@ public class Quiz_Scene_Controller : MonoBehaviour
         back_btn.SetActive(true);
         check_answer_btn.SetActive(true);
         background2.SetActive(true);
+        click_audioSource.Play();
         foreach(GameObject quizPanel in quizPanels)
         {
             quizPanel.SetActive(false);
@@ -67,6 +79,7 @@ public class Quiz_Scene_Controller : MonoBehaviour
         back_btn.SetActive(true);
         check_answer_btn.SetActive(true);
         background2.SetActive(true);
+        click_audioSource.Play();
         foreach(GameObject quizPanel in quizPanels)
         {
             quizPanel.SetActive(false);
@@ -79,6 +92,7 @@ public class Quiz_Scene_Controller : MonoBehaviour
         back_btn.SetActive(true);
         check_answer_btn.SetActive(true);
         background2.SetActive(true);
+        click_audioSource.Play();
         foreach(GameObject quizPanel in quizPanels)
         {
             quizPanel.SetActive(false);
@@ -89,7 +103,21 @@ public class Quiz_Scene_Controller : MonoBehaviour
     
 
     public void Check_answer_btn(){
-        Text txt = quizPanels[quiznum].transform.GetChild(0).GetComponent<Text>();
-        txt.text = txt.text + "(" + quizPanels[quiznum].GetComponent<Right_Answer>().correctnum +")";
+        Right_Answer right_answer = quizPanels[quiznum].GetComponent<Right_Answer>();
+        if(!right_answer.check_answer){
+        
+            if(right_answer.correctnum == right_answer.num){
+                //정답 맞음
+                AudioSource.clip = correct_sound;
+            }else
+            {
+                //정답 틀림
+                AudioSource.clip = wrong_sound;
+            }
+            click_audioSource.Play();
+            AudioSource.Play();
+            quizPanels[quiznum].transform.GetChild(right_answer.correctnum).GetComponent<TextManager>().Select();
+            right_answer.check_answer = true;
+        }
     }
 }

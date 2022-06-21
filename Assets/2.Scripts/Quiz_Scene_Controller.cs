@@ -118,6 +118,7 @@ public class Quiz_Scene_Controller : MonoBehaviour
             AudioSource.Play();
             quizPanels[quiznum].transform.GetChild(right_answer.correctnum).GetComponent<TextManager>().Select();
             right_answer.check_answer = true;
+            check_answer_btn.SetActive(false);
         }
     }
 }

@@ -269,6 +269,7 @@ MonoBehaviour:
   - {fileID: 1152332973}
   - {fileID: 1671804507}
   - {fileID: 222436917}
+  right_answer: {fileID: 1502659874}
 --- !u!114 &54645371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -444,6 +445,7 @@ MonoBehaviour:
   - {fileID: 326507974}
   - {fileID: 1695580659}
   - {fileID: 1609962401}
+  right_answer: {fileID: 1462995354}
 --- !u!114 &62027374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -697,6 +699,7 @@ MonoBehaviour:
   - {fileID: 1695580659}
   - {fileID: 1609962401}
   - {fileID: 62027374}
+  right_answer: {fileID: 1462995354}
 --- !u!222 &171017723
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -872,6 +875,7 @@ MonoBehaviour:
   - {fileID: 1152332973}
   - {fileID: 1671804507}
   - {fileID: 54645371}
+  right_answer: {fileID: 1502659874}
 --- !u!222 &222436919
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1048,6 +1052,7 @@ MonoBehaviour:
   - {fileID: 612130185}
   - {fileID: 624156911}
   - {fileID: 679119652}
+  right_answer: {fileID: 547009358}
 --- !u!222 &311573777
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1184,6 +1189,7 @@ MonoBehaviour:
   - {fileID: 1695580659}
   - {fileID: 1609962401}
   - {fileID: 62027374}
+  right_answer: {fileID: 1462995354}
 --- !u!222 &326507977
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1320,6 +1326,7 @@ MonoBehaviour:
   - {fileID: 1678972304}
   - {fileID: 2056788160}
   - {fileID: 911993651}
+  right_answer: {fileID: 1348539866}
 --- !u!222 &387228676
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1457,6 +1464,7 @@ MonoBehaviour:
   - {fileID: 1039836212}
   - {fileID: 1562284707}
   - {fileID: 855436274}
+  right_answer: {fileID: 1602785478}
 --- !u!222 &466042073
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1857,6 +1865,7 @@ MonoBehaviour:
   - {fileID: 311573774}
   - {fileID: 624156911}
   - {fileID: 679119652}
+  right_answer: {fileID: 547009358}
 --- !u!222 &612130188
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1994,6 +2003,7 @@ MonoBehaviour:
   - {fileID: 612130185}
   - {fileID: 311573774}
   - {fileID: 679119652}
+  right_answer: {fileID: 547009358}
 --- !u!222 &624156914
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2130,6 +2140,7 @@ MonoBehaviour:
   - {fileID: 311573774}
   - {fileID: 624156911}
   - {fileID: 679119652}
+  right_answer: {fileID: 547009358}
 --- !u!222 &629742738
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2298,6 +2309,7 @@ MonoBehaviour:
   - {fileID: 612130185}
   - {fileID: 311573774}
   - {fileID: 624156911}
+  right_answer: {fileID: 547009358}
 --- !u!114 &679119652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2566,6 +2578,7 @@ MonoBehaviour:
   - {fileID: 1039836212}
   - {fileID: 1562284707}
   - {fileID: 466042070}
+  right_answer: {fileID: 1602785478}
 --- !u!114 &855436274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2745,6 +2758,7 @@ MonoBehaviour:
   - {fileID: 1678972304}
   - {fileID: 2056788160}
   - {fileID: 387228673}
+  right_answer: {fileID: 1348539866}
 --- !u!114 &911993651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2856,6 +2870,7 @@ MonoBehaviour:
   - {fileID: 1671804507}
   - {fileID: 222436917}
   - {fileID: 54645371}
+  right_answer: {fileID: 1502659874}
 --- !u!222 &938374354
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3031,6 +3046,7 @@ MonoBehaviour:
   - {fileID: 1562284707}
   - {fileID: 466042070}
   - {fileID: 855436274}
+  right_answer: {fileID: 1602785478}
 --- !u!222 &1039836215
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3233,6 +3249,7 @@ MonoBehaviour:
   - {fileID: 1671804507}
   - {fileID: 222436917}
   - {fileID: 54645371}
+  right_answer: {fileID: 1502659874}
 --- !u!222 &1152332975
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3636,6 +3653,7 @@ MonoBehaviour:
   - {fileID: 2056788160}
   - {fileID: 387228673}
   - {fileID: 911993651}
+  right_answer: {fileID: 1348539866}
 --- !u!222 &1364455998
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3983,6 +4001,7 @@ MonoBehaviour:
   - {fileID: 1562284707}
   - {fileID: 466042070}
   - {fileID: 855436274}
+  right_answer: {fileID: 1602785478}
 --- !u!222 &1495525793
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4176,6 +4195,7 @@ MonoBehaviour:
   - {fileID: 1039836212}
   - {fileID: 466042070}
   - {fileID: 855436274}
+  right_answer: {fileID: 1602785478}
 --- !u!222 &1562284710
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4575,6 +4595,7 @@ MonoBehaviour:
   - {fileID: 326507974}
   - {fileID: 1695580659}
   - {fileID: 62027374}
+  right_answer: {fileID: 1462995354}
 --- !u!222 &1609962404
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4673,6 +4694,7 @@ MonoBehaviour:
   - {fileID: 1152332973}
   - {fileID: 222436917}
   - {fileID: 54645371}
+  right_answer: {fileID: 1502659874}
 --- !u!222 &1671804509
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4848,6 +4870,7 @@ MonoBehaviour:
   - {fileID: 2056788160}
   - {fileID: 387228673}
   - {fileID: 911993651}
+  right_answer: {fileID: 1348539866}
 --- !u!222 &1678972307
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4984,6 +5007,7 @@ MonoBehaviour:
   - {fileID: 326507974}
   - {fileID: 1609962401}
   - {fileID: 62027374}
+  right_answer: {fileID: 1462995354}
 --- !u!222 &1695580662
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5642,6 +5666,7 @@ MonoBehaviour:
   - {fileID: 1678972304}
   - {fileID: 387228673}
   - {fileID: 911993651}
+  right_answer: {fileID: 1348539866}
 --- !u!222 &2056788163
 CanvasRenderer:
   m_ObjectHideFlags: 0

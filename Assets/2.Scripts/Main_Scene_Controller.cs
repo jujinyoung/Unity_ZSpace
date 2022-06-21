@@ -34,6 +34,10 @@ public class Main_Scene_Controller : MonoBehaviour
     //튜토리얼 체크
     bool check=false;
 
+    private void Start() {
+        StartCoroutine("deletepanel");
+    }
+
 
     //동물 클릭
     public void Click_Model(int num)
@@ -127,6 +131,7 @@ public class Main_Scene_Controller : MonoBehaviour
                     tutorial_panel.transform.GetChild(0).GetComponent<Text>().text = "자세히보기 버튼을 통해 눈에 보이지 않는 생물을 확인해 볼 수 있습니다.";
                     quiz_btn.SetActive(false);
                     check = true;
+                    StartCoroutine("deletepanel");
                 }
                 break;
             case Camera_State.camera_right:
@@ -220,4 +225,15 @@ public class Main_Scene_Controller : MonoBehaviour
         quiz_btn.SetActive(true);
     }
     #endregion
+
+    IEnumerator deletepanel() {
+        while (true)
+        {
+            yield return new WaitForSeconds(1.0f);   
+            if(!tutorial_audioSource.isPlaying){
+                tutorial_panel.SetActive(false);
+            }
+        }
+
+    }
 }

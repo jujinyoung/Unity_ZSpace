@@ -7,14 +7,17 @@ public class TextManager : MonoBehaviour
 {
     
     public Text[] Black_Text;
+    public Right_Answer right_answer;
 
 
     public void Select()
     {
-        this.GetComponent<Text>().color = new Color(1, 0, 0);
-        foreach (Text B in Black_Text)
-        {
-            B.color= new Color(0.196f, 0.196f, 0.196f);
+        if(!right_answer.check_answer){
+            this.GetComponent<Text>().color = new Color(1, 0, 0);
+            foreach (Text B in Black_Text)
+            {
+                B.color= new Color(0.196f, 0.196f, 0.196f);
+            }
         }
     }
 
